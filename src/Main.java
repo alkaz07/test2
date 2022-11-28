@@ -10,7 +10,10 @@ public class Main {
             int a = scanner.nextInt();
             System.out.println(a);
 
-
+            int[] mas = new int[a];
+            for (int i = 0; i < mas.length; i++) {
+                mas[i] = scanner.nextInt();
+            }
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
